@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida</title>
+    <meta name="viewport" content="with=device-with, user-scalable=no">
+  </head>
+  <body>
+    <header>
+      <svg width="220" height="110" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+       <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+       <g>
+        <title>Layer 1</title>
+        <text fill="#000000" stroke-width="0" x="39" y="62" id="svg_1" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" stroke="#000000"/>
+        <text stroke="#000000" transform="matrix(3.848733442585437,0,0,3.544152852864746,-512.9620233931084,-173.72493492509136) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="72.20317" x="161.22052" stroke-width="0" fill="#000000">JISM</text>
+        <rect stroke="#000000" fill="#0000ff" stroke-width="5" x="3" y="89" width="211" height="15" id="svg_4"/>
+        <rect id="svg_3" stroke="#000000" fill="#0000ff" stroke-width="5" x="3.5" y="3.5" width="211" height="15"/>
+       </g>
+      </svg>
+      <h1>Hoja de Vida</h1>
+    </header>
+    
+    <nav>
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ol>
+    </nav>
+
+    <section id="datos-personales">
+      <h2>Informacion Personal</h2>
+      <ul>
+        <li><h3>Nombres: Jorge Isaac</h3></li>
+        <li><h3>Apellidos: Suazo Mejia</h3></li>
+        <li><h3>Fecha y lugar de nacimiento: Santo Domingo, 27/05/1991</li>
+      </ul>
+    </section>
+
+    <section id="educacion">
+      <h3>Educacion</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>Titulo</th>
+            <th>Culmimo?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2010</td>
+            <td>UTESA</td>
+            <td>Santo Domingo</td>
+            <td>Ingeniero en Informatica</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>INFOTEP</td>
+            <td>Santo Domingo</td>
+            <td>Tecnico en redes</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Next_U</td>
+            <td>Online</td>
+            <td>Desarrollador Android</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Next_U</td>
+            <td>Online</td>
+            <td>Desarrollador Web</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form name="formulario-estudios" action="index.html" method="post">
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+          <a><b>Año: </b></a>
+          <select name="lista-years">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+          <br>
+          <br>
+          <label for="institucion"><b>Institucion: </b></label>
+          <input type="text" name="institucion">
+          <br>
+          <br>
+          <label for="lugar"><b>Lugar: </b></label>
+          <textarea name="lugar" rows="2" cols="80"></textarea>
+          <br>
+          <br>
+          <label for="titulo"><b>Titulo: </b></label>
+          <input type="text" name="titulo">
+          <br>
+          <br>
+          <label for="culmino"><b>Culmino? </b></label>
+          <a>Si</a><input type="radio" name="culmino">
+          <a>No</a><input type="radio" name="culmino">
+          <br>
+          <br>
+          <input type="submit" name="enviar" value="Enviar">
+
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li>Correo Electronico: <a href="#">suazomejia.isaac45@gmail.com</a></li>
+        <li>Telefono: 809-123-1234</li>
+        <li>Facebook: Isaac Suazo</li>
+      </ul>
+    </footer>
+  </body>
+</html>
